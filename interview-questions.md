@@ -22,7 +22,7 @@ Researched answer: Yarn is a package manager for JavaScript that was created by 
 
 Your answer: A React component is a self encapsulated function that returns JSX. A React component can utilize different hooks from React to add functionality to the component. The useState hook is used to store information. When that information is changed, the component is rerendered to display those changes. 
 
-Researched answer:
+Researched answer:  React components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML. Components come in two types, Class components and Function components.
 
 4. What is the difference between state values and props in React?
 
