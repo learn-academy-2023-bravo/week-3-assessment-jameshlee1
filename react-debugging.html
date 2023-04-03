@@ -64,12 +64,18 @@
         }
         // No need to change anything ABOVE this line ^
 
+
+        // First will need to add the react fragment from line 73 ending in line 91.
+        // Add the drawCard inside the curly bracket for onClick on line 75.
+        // change the onclick in button tag on line 78 to onClick
+
         return (
+          <>
           <h1>Draw a Card</h1>
-          <button onClick={}>
+          <button onClick={drawCard}> 
             Click to Draw a Card
           </button>
-          <button onclick={shuffle}>
+          <button onClick={shuffle}>
             Return Cards and Shuffle Deck
           </button>
           <div style={handStyles}>
@@ -77,10 +83,12 @@
               return (
                 <div style={cardStyles} key={index}>
                   {card}
+                  
                 </div>
               )
             })}
           </div>
+          </>
         )
       }
 
